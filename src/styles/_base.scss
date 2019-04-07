@@ -4,6 +4,7 @@
 
 body {
   background-color: $light-gray;
+  font-family: $site-font;
 }
 
 a {
@@ -16,9 +17,7 @@ a {
   }
 }
 
-body {
-  font-family: $site-font;
-}
+
 
 h1 {
   margin-bottom: 20px;
