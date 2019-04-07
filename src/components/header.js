@@ -8,10 +8,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap"
 
 class Header extends React.Component {
@@ -29,17 +25,18 @@ class Header extends React.Component {
     return (
       <div>
         <Navbar fixed="top" light expand="sm">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/team">Team</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  GitHub
-                </NavLink>
+                <NavLink href="/tags">Team</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/about">Team</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
