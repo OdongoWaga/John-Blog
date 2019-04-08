@@ -4,6 +4,9 @@ date: 2019-01-02 07:00:00
 author: "Janet Doe"
 path: "/second-post"
 image: ../../images/icon.jpg
+tags:
+  - bikes
+  - cycling
 ---
 
 This is our blog.
