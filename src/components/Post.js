@@ -6,6 +6,10 @@ import Img from "gatsby-image"
 const Post = ({ title, author, path, date, body, fluid }) => {
   return (
     <Card>
+      <Link to={path}>
+        {" "}
+        <Img className="card-image-top" fluid={fluid} />
+      </Link>
       <Img className="card-image-top" fluid={fluid} />
       <CardBody>
         <CardTitle>
