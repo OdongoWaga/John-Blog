@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => (
   <div className="site-footer">
-    <h4 className="text-center">Code Blog</h4>
+    <h4 className="text-center">Cycle Blog</h4>
 
     <p className="text-center">Follow us on social media</p>
 
@@ -66,3 +66,5 @@ const Footer = () => (
     </div>
   </div>
 )
+
+export default Footer

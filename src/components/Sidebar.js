@@ -32,7 +32,7 @@ const Sidebar = ({ author, authorFluid }) => (
               <li>
                 <a
                   href={author.facebook}
-                  targe="_blank"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="facebook"
                 >
@@ -43,7 +43,7 @@ const Sidebar = ({ author, authorFluid }) => (
               <li>
                 <a
                   href={author.twitter}
-                  targe="_blank"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="twitter"
                 >
@@ -54,7 +54,7 @@ const Sidebar = ({ author, authorFluid }) => (
               <li>
                 <a
                   href={author.instagram}
-                  targe="_blank"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="instagram"
                 >
@@ -65,7 +65,7 @@ const Sidebar = ({ author, authorFluid }) => (
               <li>
                 <a
                   href={author.google}
-                  targe="_blank"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="google"
                 >
@@ -76,7 +76,7 @@ const Sidebar = ({ author, authorFluid }) => (
               <li>
                 <a
                   href={author.linkedin}
-                  targe="_blank"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="linkedin"
                 >

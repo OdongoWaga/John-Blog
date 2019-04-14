@@ -11,7 +11,7 @@ const IndexPage = () => {
   let numberOfPages
 
   return (
-    <Layout pageTitle="CodeBlog">
+    <Layout pageTitle="CycleBlog">
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
       <StaticQuery
