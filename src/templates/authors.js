@@ -5,7 +5,7 @@ const authors = [
     imageUrl: "john.jpg",
 
     bio:
-      "John has been a front-end and UI designer fpr over 10 years, he is a brilliant artist",
+      "John has been a front-end and UI designer for over 10 years, he is a brilliant artist",
 
     facebook: "https://www.facebook.com/",
 
@@ -21,7 +21,7 @@ const authors = [
   {
     name: "Jane Doe",
 
-    imageUrl: "jane.jpg",
+    imageUrl: "jane.jpeg",
 
     bio:
       "Jane is a back-end developer, she specializes in security and her favourite stack is the MERN stack",
