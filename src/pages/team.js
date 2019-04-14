@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import authors from "../util/authors"
 import { Button, Card, CardText, CardBody, CardTitle, Row } from "reactstrap"
-import JohnImage from "../images/john.jpeg"
+import JohnImage from "../images/john.jpg"
 import JaneImage from "../images/jane.jpeg"
 import { slugify } from "../util/utilityFunctions"
 

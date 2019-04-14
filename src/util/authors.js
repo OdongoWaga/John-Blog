@@ -2,7 +2,7 @@ const authors = [
   {
     name: "John Doe",
 
-    imageUrl: "john.jpg",
+    imageUrl: "john.jpeg",
 
     bio:
       "John has been a front-end and UI designer for over 10 years, he is a brilliant artist",
