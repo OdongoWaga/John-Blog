@@ -68,11 +68,9 @@ const indexQuery = graphql`
               }
             }
           }
-
           fields {
             slug
           }
-
           excerpt
         }
       }
