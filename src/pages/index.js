@@ -35,7 +35,6 @@ const IndexPage = () => {
                   tags={node.frontmatter.tags}
                 />
               ))}
-
               <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
             </div>
           )
@@ -49,7 +48,6 @@ const indexQuery = graphql`
   query indexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-
       limit: 2
     ) {
       totalCount
@@ -57,16 +55,11 @@ const indexQuery = graphql`
       edges {
         node {
           id
-
           frontmatter {
             title
-
             date(formatString: "MMM Do YYYY")
-
             author
-
             tags
-
             image {
               childImageSharp {
                 fluid(maxWidth: 600) {
